@@ -1,0 +1,120 @@
+.data-row {
+	padding: 10px 125px 10px 5px;
+}
+
+.number-row {
+	padding-right: 70px;
+}
+
+tr {
+	border-bottom: solid silver thin;
+}
+
+.last-row {
+	border: none;
+}
+
+.stats {
+	border-top: solid 1px;
+	border-color: silver;
+}
+
+.stats-num {
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.stats-spacing {
+	padding: 20px 20px 20px 20px;
+}
+
+.stats-text {
+	font-size: 12px;
+	color: silver;
+	text-align: center;
+}
+
+.bar-row {
+	border: none;
+}
+
+.bar-head, .bar {
+	padding: 1px 5px 1px 0px;
+}
+
+.bar-head {
+	text-align: right;
+	width: 100px;
+}
+
+.bar-color {
+	background-color: #47C;
+	padding: 3px 0px 3px 5px;
+	border-bottom-right-radius:4px;
+	border-top-right-radius:4px;
+	color: white;
+}
+
+.bar-table {
+	width: 100%;
+}
+
+.lightbox {
+	position: fixed;
+	top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.background-box {
+	position: absolute;
+	background-color: black;
+	opacity: .8;
+	top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.info-box {
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	background-color: white;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+  	padding: 15px;
+  	border-radius: 6px;
+	z-index: 2;
+}
+
+.close-button {
+	float: right;
+	text-align: center;
+	background-color: salmon;
+	padding: 10px 20px 10px 20px;
+	border-radius: 6px;
+	color: white;
+}
+
+.inline-media-left {
+	float: left;
+	margin-right: 10px;
+}
+
+.image-wrap {
+	clear: left;
+	margin-left: 60px;
+}
+
+.nested-media-left {
+	margin-left: 60px;
+}
+
+.nested-wrap {
+	margin-left: 102px;
+}
